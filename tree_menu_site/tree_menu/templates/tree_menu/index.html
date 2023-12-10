@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% load tree_menu_tags %}
+
+{% block content %}
+
+{% draw_menu 'Упражнения по целевой мышечной группе' %}
+{% draw_menu 'Упражнения по уровню сложности' %}
+{% draw_menu 'Упражнения по используемому инвентарю' %}
+
+{% endblock %}
